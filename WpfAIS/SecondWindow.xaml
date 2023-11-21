@@ -1,0 +1,96 @@
+﻿<Window x:Class="WpfAIS.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAIS"
+        mc:Ignorable="d"
+        Title="Akademinės informacijos sistema" Height="900" Width="1600" Loaded="Window_Loaded"
+        WindowStartupLocation="Manual"
+        Icon="logo.ico">
+    <Grid>
+        <Image Margin="0,55,0,0" Source="/logoo.png" Stretch="Fill" HorizontalAlignment="Center" Width="312" Height="156" VerticalAlignment="Top"/>
+        <Line X1="1" Y1="0" X2="1600" StrokeThickness="2" Margin="0,216,0,0" Height="12" VerticalAlignment="Top" HorizontalAlignment="Center" Width="1602">
+            <Line.Stroke>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Color="#FF44B46E"/>
+                    <GradientStop Color="#FF005AAB" Offset="0.627"/>
+                    <GradientStop Color="#FF29BFCF" Offset="0.373"/>
+                </LinearGradientBrush>
+            </Line.Stroke>
+        </Line>
+        <Button Content="Atsijungti" HorizontalAlignment="Left" Margin="1493,10,0,0" Width="89" BorderBrush="#FFFFF2F2" Foreground="#FFFFF9F9" Cursor="Hand" Height="32" VerticalAlignment="Top" Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="10" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Kontantinė informacija" HorizontalAlignment="Left" Margin="1014,184,0,0" Width="134" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="32" VerticalAlignment="Top" Background="#FF206FB6" Click="Button_Click_1">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="10" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Label x:Name="txtprisijungtas1" Content="Pareigos: kodas, Pavarde Vardas" HorizontalAlignment="Left" Height="29" Margin="15,182,0,0" VerticalAlignment="Top" Width="285" Foreground="#FF42B577"/>
+        <Button x:Name="btnPirmiMetai1" Content="20**/20** m.m Fakultetas...." HorizontalAlignment="Left" Margin="623,321,0,0" Width="430" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="48" VerticalAlignment="Top" Background="#FF206FB6" FontSize="14" Click="btnPirmiMetai1_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="btnAntriMetai1" Content="20**/20** m.m Fakultetas...." HorizontalAlignment="Left" Margin="623,394,0,0" Width="430" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="48" VerticalAlignment="Top" Background="#FF206FB6" FontSize="14" Click="btnAntriMetai1_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="btnTretiMetai1" Content="20**/20** m.m Fakultetas...." HorizontalAlignment="Left" Margin="623,468,0,0" Width="430" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="48" VerticalAlignment="Top" Background="#FF206FB6" FontSize="14" Click="btnTretiMetai1_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="btnKetverti1" Content="20**/20** m.m Fakultetas...." HorizontalAlignment="Left" Margin="623,540,0,0" Width="430" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="48" VerticalAlignment="Top" Background="#FF206FB6" FontSize="14" Click="btnKetverti1_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="5" BorderThickness="1" BorderBrush="White" Background="#FF206FB6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="btnLecturer" Content="Destytojų panel" HorizontalAlignment="Left" Margin="475,176,0,0" Width="134" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="32" VerticalAlignment="Top" Background="#FF40B682" Click="btnLecturer_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="10" BorderThickness="1" BorderBrush="White" Background="#FF34B89C">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="btnAdmin" Content="Admin panel" HorizontalAlignment="Left" Margin="475,139,0,0" Width="134" BorderBrush="White" Foreground="#FFFFF9F9" Cursor="Hand" Height="32" VerticalAlignment="Top" Background="#FF40B682" Click="btnAdmin_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border CornerRadius="10" BorderThickness="1" BorderBrush="White" Background="#FF44B471">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>

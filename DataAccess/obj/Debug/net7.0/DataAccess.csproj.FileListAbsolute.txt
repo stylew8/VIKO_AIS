@@ -1,0 +1,15 @@
+C:\Users\vania\Desktop\AIS\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+C:\Users\vania\Desktop\AIS\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+C:\Users\vania\Desktop\AIS\DataAccess\bin\Debug\net7.0\DataAccess.dll
+C:\Users\vania\Desktop\AIS\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.dll
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
+C:\Users\vania\Desktop\AIS\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+C:\Users\vania\Desktop\AIS\DataAccess\bin\Debug\net7.0\appsettings.json

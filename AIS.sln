@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E7380323-D2E8-4F02-8669-67DE0DE49571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAIS", "WpfAIS\WpfAIS.csproj", "{FB006EC9-6E16-4C3A-B26A-7BB407E097A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7380323-D2E8-4F02-8669-67DE0DE49571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7380323-D2E8-4F02-8669-67DE0DE49571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7380323-D2E8-4F02-8669-67DE0DE49571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7380323-D2E8-4F02-8669-67DE0DE49571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB006EC9-6E16-4C3A-B26A-7BB407E097A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB006EC9-6E16-4C3A-B26A-7BB407E097A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB006EC9-6E16-4C3A-B26A-7BB407E097A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB006EC9-6E16-4C3A-B26A-7BB407E097A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09B8869B-EA7B-484C-8F89-83C3B231D095}
+	EndGlobalSection
+EndGlobal
